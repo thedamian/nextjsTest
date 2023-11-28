@@ -2,7 +2,7 @@
 import { useContext, useEffect } from "react"
 import { ItemContext } from "@/context/listContext/ItemsContext"
 
-export default function DisplayWishlist() {
+export default function DisplayWishList() {
 
     const { wishlist, setWishlist } = useContext(ItemContext)
 
